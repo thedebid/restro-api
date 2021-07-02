@@ -1,0 +1,28 @@
+﻿{
+  "API_URL": "/api/v1",
+  "PORT": "8080",
+  "NODE_ENV": "production",
+  "DATABASE": {
+    "HOST": "localhost",
+    "PORT": 3306,
+    "USER": "root",
+    "PASSWORD": "D3b!dR4n4",
+    "DB": "restro",
+    "dialect": "mysql"
+  },
+  "JWT": {
+    "JWT_SECRET": "sdskmdckl"
+  },
+  "BCRYPT": {
+    "SALT": 10
+  },
+  "emailFrom": "info@node-mysql-signup-verification-api.com",
+  "smtpOptions": {
+    "host": "smtp.ethereal.email",
+    "port": 587,
+    "auth": {
+      "user": "julianne94@ethereal.email",
+      "pass": "Qvem1CWpKah5Wv6xTp"
+    }
+  }
+}
